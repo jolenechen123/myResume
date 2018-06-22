@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Jocelyn Chen</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+
+	<style>
+		/* .col-4{
+			background-color: #ccc;
+		} */
+
+		/* .item2:hover{
+			box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+		} */
+
+		.row>div{
+			/* background-color: #ccc; */
+			/* height: 400px; */
+		}
+
+		/* top */
+		.row>div.item1{
+			height: 60px;
+			background-color: #3b5998;
+			text-align: center;
+			margin: auto;
+			font-size: 25px;
+			line-height: 50px;
+			color: #fff;
+		}
+
+		.btn{
+			/* height: 50px; */
+			width: 25%;
+			background-color: #3b5998;
+			text-align: center;
+			/* margin: auto; */
+			font-size: 25px;
+			/* line-height: 50px; */
+			color: #fff;
+		}
+
+		.row>div.item2{
+			background-color: #f0f0f0;
+			color: #ccc;
+			margin: 10px;
+			top: 15px;
+			box-shadow:4px 4px rgba(20%,20%,40%,0.5);
+			border-radius: 5px;
+		}
+		.row>div.item3{
+			background-color: #f0f0f0;
+			color: #ccc;
+			margin: 15px;
+			top: 15px;
+			box-shadow:4px 4px rgba(20%,20%,40%,0.5);
+			border-radius: 5px;
+		}
+
+		/* ---------------------------------- */
+		.left1{
+		/* border: solid 3px; */
+		/* height: 200px; */
+		/* border-radius: 5px; */
+		/* background-color: #f0f0f0; */
+		padding: 15px;	
+		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
+		color: #000
+
+		}
+		.left ul{
+			text-align: left;
+			list-style: none;
+			}
+
+		.left2{
+		/* border: solid 3px; */
+		/* height: 750px; */
+		/* border-radius: 5px; */
+		/* background-color: #f0f0f0; */
+		padding: 15px;
+		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
+		color: #000
+	}
+
+			.bar{
+		width: 250px;
+		height: 30px;
+		background-color: #d0d0d0;
+		border-radius: 15px;
+		border: 1px solid #000;
+		position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			margin: auto;
+		position: relative;
+
+	}
+	
+	.bar2{
+		width: 240px;
+		height: 20px;
+		background-color: #ffdc35;
+		border-radius: 13px;
+		border: 1px solid #000;
+		position: absolute;
+		top: 4.5px;
+		left: 4px;
+	}
+		
+	.Ebar2{
+			width: 200px;
+			height: 20px;
+			background-color: #84c1ff;
+			border-radius: 13px;
+			border: 1px solid #000;
+			position: absolute;
+			top: 4.5px;
+			left: 4px;
+		}
+
+	.Ebar3{
+		width: 150px;
+		height: 20px;
+		background-color: #84c1ff;
+		border-radius: 13px;
+		border: 1px solid #000;
+		position: absolute;
+		top: 4.5px;
+		left: 4px;
+		}
+
+	.line{
+			width: 50%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 25%;
+			border-left: dashed 1px;
+			border-right: dashed 1px;
+		}
+		.line:before{
+			content: "";
+			display: block;
+			height: 100%;
+			width: 1px;
+			background-color: #000;
+			position: absolute;
+			left: 50%;
+			top: 0;
+		}
+		.abc{
+		background-color: #d0d0d0;
+		height: 50px;
+		width: 50px;
+		border: solid 3px;
+		margin: auto;
+		font-size: 30px;
+		line-height: 50px;
+		}	
+		
+		.middle1{
+		/* border: solid 3px; */
+		/* height: 500px; */
+		/* border-radius: 5px; */
+		/* background-color: #f0f0f0; */
+		padding: 15px;
+		text-align: center;
+		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
+		color: #000;
+		}
+
+		.me{
+			 	border-radius: 100%;
+			 }
+
+		.right1{
+		/* border: solid 3px; */
+		/* height: 1000px; */
+		/* border-radius: 5px; */
+		/* background-color: #f0f0f0; */
+		padding: 15px;
+		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
+		color: #000;
+	}
+
+	.middle2{
+		/* border: solid 3px; */
+		/* height: 450px; */
+		/* border-radius: 5px; */
+		/* background-color: #f0f0f0; */
+		padding: 15px;
+		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
+		color: #000;
+	}
+
+	span{
+			font-weight: bold
+		}
+	
+	.hi ul li span{
+			padding-right: 5px;
+		}
+
+	/* --------------------------------------------------------------- */
+	
+	.lightbox-wrap{
+		position: fixed;
+		left: 0;
+		top: 0;
+		/* 視野寬高 */
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(0, 0, 0,.2);
+		/* position: relative; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		display: none;
+		/* flex寫在父層 對子層作用 */
+	}
+
+	.lightbox{
+		width: 300px;
+		height: 300px;
+		background-color: #d0d0d0;
+		 /* position: absolute; */
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			margin: auto; 不用這個方法 因為x會跑掉
+			position: relative;
+			
+	}
+
+	.lightbox>img{
+		
+		position: absolute;
+			top: 0px;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
+			margin: auto;
+	}
+
+	/* .close{
+		position: absolute;
+		 right: 0;
+		 top: 0;
+		 background-color: #fff;
+		 width: 50px;
+		 height: 50px;
+		 font-size: 40px;
+	} */
+
+ 	
+
+
+	</style>
+
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="main-navbar">
+		<!-- fixed-top導覽列會釘在上面 -->
+		 <a class="navbar-brand" href="#">Jocelyn Chen</a>
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		 </button>
+		 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="https://www.facebook.com/people/%E9%99%B3%E5%BF%97%E5%AF%A7/100001616653429" target="_blank"><img src="image/facebook.png" alt="fb">   Facebook<span class="sr-only">(current)</span></a>
+
+		      <a class="nav-item nav-link" href="https://www.instagram.com/ning8428/" target="_blank"><img src="image/instagram.png" alt="ig">   Instagram</a>
+
+		      <a class="nav-item nav-link" href="mailto:jolenechen123@gmail.com"><img src="image/envelope.png" alt="email">   Email</a>
+
+		      <a class="nav-item nav-link" href="#works"><img src="image/line.png" alt="line">     LINE</a>
+		    </div>
+		  </div>
+	</nav>
+<!-- ///////////////////////////////////////////////////// -->
+	<!-- 滿版 -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 item1">
+				<img src="image/facebook.png" alt="fb">
+				<a href="https://www.facebook.com/people/%E9%99%B3%E5%BF%97%E5%AF%A7/100001616653429" target="_blank"><button class="btn" ou>Facebook</button></a>
+			</div>
+			<div class="col-md-3 item1">
+				<img src="image/instagram.png" alt="ig">
+				<a href="https://www.instagram.com/ning8428/" target="_blank"><button class="btn">Instagram</button></a>
+			</div>
+			<div class="col-md-3 item1">
+				<img src="image/envelope.png" alt="email">
+				<a class="email" href="mailto:jolenechen123@gmail.com"><button class="btn">Email</button></a>
+			</div>
+			<div class="col-md-3 item1">
+				<img src="image/line.png" alt="line">
+				<!-- <a href="https://line.me/ti/p/nbrKkgz4xl"> --><button class="btn btn1">LINE</button><!-- </a> -->
+			</div>
+			
+		</div>
+	</div>
+		<!--上面滿版 下面致中 在裡面包一個正常的 -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 item2 order-md-1">
+				<div class="middle1">
+					<div>
+						<img class="me" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVr3nSnJdRMPpQF5XVlpuY9afMGXLfIJ9chwnYSLmxAwjUK3D" alt="頭像">
+						<hr>
+						<br>
+						<h1><span>陳志寧</span></h1>
+						<h1><span>Jocelyn Chen</span></h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4 item2 order-md-2">
+				<div class="left1">
+					<h3><span>個人資訊</span></h3>
+					<hr>
+					<ul>
+						<li>
+							<h5>
+								<span>生日</span>
+								1995.02.08
+							</h5>
+						</li>
+						<br>
+						<li>
+							<h5>
+								<span>性別</span>
+								女
+							</h5>
+						</li>
+						<br>
+						<li>
+							<h5>
+								<span>國籍</span>
+								Taiwan
+							</h5>
+						</li>
+						<br>
+						<li>
+							<h5>
+								<span>email</span>
+								jolenechen123@yahoo.com.tw
+							</h5>
+						</li>
+						<br>
+						<li>
+							<h5>
+								<span>phone</span>
+								0935216862
+							</h5>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			
+			<div class="col-md-4 item2 order-md-3">
+				<div class="middle2">
+					<div>
+						<h3><span>學習經歷</span></h3>
+						<hr>
+						<h5>2013-2017 天主教輔仁大學</h5>
+						<h5>學士，數學系</h5>
+						<br>
+					</div>
+					<br><br>
+					<div>
+						<h3><span>工作經歷</span></h3>
+						<hr>
+						<h5><span>頤德國際公關顧問公司-助理</span></h5>
+							<p>
+								搜尋、蒐集及編排資料,並忙資料庫建檔
+							</p>
+						
+						<h5><span>美生牙醫珍所-助理,櫃台</span></h5>
+							<p>
+								聯絡病人,幫忙處理病人相關行政作業
+
+							</p>
+						<h5><span>瑞齊文理補習班</span></h5>
+							<p>
+								團班數學老師,家教班數學老師
+							</p>
+						<br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- /////////////////////////////////////////// -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 item3">
+				<div class="left2">
+					<div>
+						<h3><span>語言</span></h3>
+						<hr>
+						<h5>中文</h5>			
+							<div class="bar">
+								<div class="bar2"></div>
+							</div>
+							<br>
+						<h5>英文</h5>
+							<div class="bar">
+									<div class="Ebar2">
+							 		</div>
+							</div>
+								<br>
+					</div>
+						<br>
+					
+						<h3><span>技能</span></h3>
+						<hr>
+						<br>
+						<h5 class="abc"><span>HT</span></h5>
+						<br>
+							<div class="bar">
+								<div class="line"></div>
+									<div class="bar2"></div>
+							</div>
+								<br>
+						<h5 class="abc"><span>CS</span></h5>
+						<br>
+						<div class="bar">
+							<div class="line"></div>
+									<div class="Ebar3"></div>
+						</div>
+
+				</div>
+
+			</div>
+
+			<div class="col-md-7 item3">
+				<div class="right1">
+					<div>
+						<h3><span>自傳</span></h3>
+						<hr>
+						<br>
+						<p>
+							您好，我是陳志寧，今年二十三歲，來自台北，就讀輔仁大學數學系畢業，對數據相關工作特別有興趣。
+        				初到大學這開放、自由的學習環境，我就期許自己要過的充實，青春不要留白。從大一起，透過微積分這門課，奠定了領域之基礎概念與熱忱，使我學習專業課程更加游刃有餘。後來開始接觸較深入的線性代數、微分方程等課程，也因為有良好的理論基礎，所以讓我在這些科目中取得優異的成績，藉由這些專業知識讓我在研究領域中能更系統的整合及周延的思考，並透過一些程式語言的操作，加深印象，也學會LaTeX、MATLAB等的基本機制及用途。到了大三，我開始了解自己的志向，因此選修了統計學、機率論、物聯網概論、巨量資料概論等課程，以利我學習到統計相關的知識。此外我也選修了許多商管學院的課，如經濟學、理財投資、公司管理與經營實務等，一方面是建立基本的經濟觀，另一方面是培養本科系以外的專長，以利在競爭激烈的社會洪流中站穩腳步。
+        			</p>
+        			<br>
+        			<p>
+    					而工作經驗方面，大學時期我曾在公關公司從事資料整理、編輯資料庫，開啟了我對資料數據的興趣。為了提升自己與別人的溝通能力，我利用課餘時間在牙醫診所從事櫃檯工作過一段時間學習如何和客戶與長官溝通，也積極地參與學校活動，大二時曾擔任組長協助過學校籌畫畫展舉辦，我們的規劃當時也得到策展人(主辦單位負責人)
+    					的大力讚賞，讓我留下了難忘的經驗與回憶。
+    					2015年暑假，我報名甄選EPSON的綠領菁英領袖營，和全國被挑選出的大學生一起學習討論綠能源再生和永續相關議題的學習，並實際參訪他們的工廠，也和其他組別分組競賽，思考如何以綠色思想為主軸，為「幸福台灣」公司訂定行銷企劃，收穫滿滿。
+    				</p>
+    				<br>
+    				<p>
+    					以上為我近年來的一些經歷，希望貴公司能給予我一個見習的機會，讓我能更了解數據的相關工作。
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+	</div>
+
+<!-- /////////////////////////////////////////////////////////////////////// -->
+	<div class="lightbox-wrap">
+		<div class="lightbox">
+			<img src="image/35884194_1894235770640293_1669582761528131584_n.jpg" alt="">
+		</div>
+	</div>
+
+
+<!-- JQ -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+
+<!-- UI -->
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+	<script>
+
+		
+	
+
+		$(".item2").hover(function(){
+			$(this).css({"box-shadow":"4px 4px 12px 4px rgba(20%,20%,40%,0.5)","top":"5px"});
+		},function(){
+			$(this).css({"box-shadow":"4px 4px rgba(20%,20%,40%,0.5)","top":"15px"});
+		}
+
+		);
+
+		$(".item3").hover(function(){
+			$(this).css({"box-shadow":"4px 4px 12px 4px rgba(20%,20%,40%,0.5)","top":"5px"});
+		},function(){
+			$(this).css({"box-shadow":"4px 4px rgba(20%,20%,40%,0.5)","top":"15px"});
+		}
+
+		);
+
+		// ---------------------------------------------------------------------
+
+		$(".btn1").click(function(){
+			$(".lightbox-wrap").fadeIn().css("display","flex");
+		});
+
+		$(".lightbox-wrap").click(function(){
+			$(".lightbox-wrap").fadeOut();
+		});
+
+
+
+
+	</script>
+
+</body>
+</html>
