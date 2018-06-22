@@ -2,531 +2,265 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Jocelyn Chen</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	
+	<title>隨堂練習0622</title>
 
-	<style>
-		/* .col-4{
-			background-color: #ccc;
-		} */
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-		/* .item2:hover{
-			box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
-		} */
 
-		.row>div{
-			/* background-color: #ccc; */
-			/* height: 400px; */
-		}
-
-		/* top */
-		.row>div.item1{
-			height: 60px;
-			background-color: #3b5998;
-			text-align: center;
-			margin: auto;
-			font-size: 25px;
-			line-height: 50px;
-			color: #fff;
-		}
-
-		.btn{
-			/* height: 50px; */
-			width: 25%;
-			background-color: #3b5998;
-			text-align: center;
-			/* margin: auto; */
-			font-size: 25px;
-			/* line-height: 50px; */
-			color: #fff;
-		}
-
-		.row>div.item2{
-			background-color: #f0f0f0;
-			color: #ccc;
-			margin: 10px;
-			top: 15px;
-			box-shadow:4px 4px rgba(20%,20%,40%,0.5);
-			border-radius: 5px;
-		}
-		.row>div.item3{
-			background-color: #f0f0f0;
-			color: #ccc;
-			margin: 15px;
-			top: 15px;
-			box-shadow:4px 4px rgba(20%,20%,40%,0.5);
-			border-radius: 5px;
-		}
-
-		/* ---------------------------------- */
-		.left1{
-		/* border: solid 3px; */
-		/* height: 200px; */
-		/* border-radius: 5px; */
-		/* background-color: #f0f0f0; */
-		padding: 15px;	
-		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
-		color: #000
-
-		}
-		.left ul{
-			text-align: left;
-			list-style: none;
-			}
-
-		.left2{
-		/* border: solid 3px; */
-		/* height: 750px; */
-		/* border-radius: 5px; */
-		/* background-color: #f0f0f0; */
-		padding: 15px;
-		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
-		color: #000
-	}
-
-			.bar{
-		width: 250px;
-		height: 30px;
-		background-color: #d0d0d0;
-		border-radius: 15px;
-		border: 1px solid #000;
-		position: absolute;
-			top: 0px;
-			bottom: 0px;
-			left: 0px;
-			right: 0px;
-			margin: auto;
-		position: relative;
-
-	}
-	
-	.bar2{
-		width: 240px;
-		height: 20px;
-		background-color: #ffdc35;
-		border-radius: 13px;
-		border: 1px solid #000;
-		position: absolute;
-		top: 4.5px;
-		left: 4px;
-	}
-		
-	.Ebar2{
-			width: 200px;
-			height: 20px;
-			background-color: #84c1ff;
-			border-radius: 13px;
-			border: 1px solid #000;
-			position: absolute;
-			top: 4.5px;
-			left: 4px;
-		}
-
-	.Ebar3{
-		width: 150px;
-		height: 20px;
-		background-color: #84c1ff;
-		border-radius: 13px;
-		border: 1px solid #000;
-		position: absolute;
-		top: 4.5px;
-		left: 4px;
-		}
-
-	.line{
-			width: 50%;
-			height: 100%;
-			position: absolute;
-			top: 0;
-			left: 25%;
-			border-left: dashed 1px;
-			border-right: dashed 1px;
-		}
-		.line:before{
-			content: "";
-			display: block;
-			height: 100%;
-			width: 1px;
-			background-color: #000;
-			position: absolute;
-			left: 50%;
-			top: 0;
-		}
-		.abc{
-		background-color: #d0d0d0;
-		height: 50px;
-		width: 50px;
-		border: solid 3px;
-		margin: auto;
-		font-size: 30px;
-		line-height: 50px;
-		}	
-		
-		.middle1{
-		/* border: solid 3px; */
-		/* height: 500px; */
-		/* border-radius: 5px; */
-		/* background-color: #f0f0f0; */
-		padding: 15px;
+<style>
+	.a123{
+		/* margin: auto; */
 		text-align: center;
-		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
-		color: #000;
+	}
+
+
+
+	body {
+
+		  position: relative;
 		}
+</style>
 
-		.me{
-			 	border-radius: 100%;
-			 }
-
-		.right1{
-		/* border: solid 3px; */
-		/* height: 1000px; */
-		/* border-radius: 5px; */
-		/* background-color: #f0f0f0; */
-		padding: 15px;
-		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
-		color: #000;
-	}
-
-	.middle2{
-		/* border: solid 3px; */
-		/* height: 450px; */
-		/* border-radius: 5px; */
-		/* background-color: #f0f0f0; */
-		padding: 15px;
-		/* box-shadow:4px 4px rgba(20%,20%,40%,0.5); */
-		color: #000;
-	}
-
-	span{
-			font-weight: bold
-		}
-	
-	.hi ul li span{
-			padding-right: 5px;
-		}
-
-	/* --------------------------------------------------------------- */
-	
-	.lightbox-wrap{
-		position: fixed;
-		left: 0;
-		top: 0;
-		/* 視野寬高 */
-		width: 100vw;
-		height: 100vh;
-		background-color: rgba(0, 0, 0,.2);
-		/* position: relative; */
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		display: none;
-		/* flex寫在父層 對子層作用 */
-	}
-
-	.lightbox{
-		width: 300px;
-		height: 300px;
-		background-color: #d0d0d0;
-		 /* position: absolute; */
-			top: 0px;
-			bottom: 0px;
-			left: 0px;
-			right: 0px;
-			margin: auto; 不用這個方法 因為x會跑掉
-			position: relative;
-			
-	}
-
-	.lightbox>img{
-		
-		position: absolute;
-			top: 0px;
-			bottom: 0px;
-			left: 0px;
-			right: 0px;
-			margin: auto;
-	}
-
-	/* .close{
-		position: absolute;
-		 right: 0;
-		 top: 0;
-		 background-color: #fff;
-		 width: 50px;
-		 height: 50px;
-		 font-size: 40px;
-	} */
-
- 	
-
-
-	</style>
 
 
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="main-navbar">
 		<!-- fixed-top導覽列會釘在上面 -->
-		 <a class="navbar-brand" href="#">Jocelyn Chen</a>
+		 <a class="navbar-brand" href="#"><img src="image/instagram.png" alt="">  Navbar</a>
 		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		 </button>
 		 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav">
-		      <a class="nav-item nav-link active" href="https://www.facebook.com/people/%E9%99%B3%E5%BF%97%E5%AF%A7/100001616653429" target="_blank"><img src="image/facebook.png" alt="fb">   Facebook<span class="sr-only">(current)</span></a>
-
-		      <a class="nav-item nav-link" href="https://www.instagram.com/ning8428/" target="_blank"><img src="image/instagram.png" alt="ig">   Instagram</a>
-
-		      <a class="nav-item nav-link" href="mailto:jolenechen123@gmail.com"><img src="image/envelope.png" alt="email">   Email</a>
-
-		      <a class="nav-item nav-link" href="#works"><img src="image/line.png" alt="line">     LINE</a>
+		      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#intro"><img src="image/line.png" alt="">   intro</a>
+		      <a class="nav-item nav-link" href="#works">作品集</a>
+		    
 		    </div>
 		  </div>
 	</nav>
-<!-- ///////////////////////////////////////////////////// -->
-	<!-- 滿版 -->
-	<div class="container-fluid">
+	<!-- ////////////////////////////// -->
+	<div class="container" id="home">
+		<div class="a123"><h1>廣告大屏幕</h1></div>
 		<div class="row">
-			<div class="col-md-3 item1">
-				<img src="image/facebook.png" alt="fb">
-				<a href="https://www.facebook.com/people/%E9%99%B3%E5%BF%97%E5%AF%A7/100001616653429" target="_blank"><button class="btn" ou>Facebook</button></a>
+			<div class="jumbotron">
+			  	<h1 class="display-4">前端基礎入門</h1>
+			  	<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			 	 <hr class="my-4">
+			  	<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			  	<p class="lead">
+			    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			  	</p>
 			</div>
-			<div class="col-md-3 item1">
-				<img src="image/instagram.png" alt="ig">
-				<a href="https://www.instagram.com/ning8428/" target="_blank"><button class="btn">Instagram</button></a>
-			</div>
-			<div class="col-md-3 item1">
-				<img src="image/envelope.png" alt="email">
-				<a class="email" href="mailto:jolenechen123@gmail.com"><button class="btn">Email</button></a>
-			</div>
-			<div class="col-md-3 item1">
-				<img src="image/line.png" alt="line">
-				<!-- <a href="https://line.me/ti/p/nbrKkgz4xl"> --><button class="btn btn1">LINE</button><!-- </a> -->
-			</div>
-			
 		</div>
 	</div>
-		<!--上面滿版 下面致中 在裡面包一個正常的 -->
+	<br><br><br>
+	<!-- /////////////////////////////////////////////////////// -->
+ 	<div class="container" id="intro">
+		<div class="row">
+			<div class="col-md-10 offset-1">
+				<!-- offset-1是推一格 -->
+			 	<div class="a123"><h1>簡介</h1></div>
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  		<ol class="carousel-indicators">
+				   			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				   			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				 		</ol>
+			    	<div class="carousel-inner">
+				     	<div class="carousel-item active">
+				      		<img class="d-block w-100" src="http://fakeimg.pl/500x150/001230/FFF/?text=test 500x150" alt="First slide">
+				    	</div>
+					    <div class="carousel-item">
+					      	<img class="d-block w-100" src="http://fakeimg.pl/500x150/456000/FFF/?text=test 500x150" alt="Second slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100" src="http://fakeimg.pl/500x150/000789/FFF/?text=test 500x150" alt="Third slide">
+					    </div>
+					</div>
+				  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  	</a>
+				  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  	</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+	<!--//////////////////////////////////////////////////////// -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 item2 order-md-1">
-				<div class="middle1">
-					<div>
-						<img class="me" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVr3nSnJdRMPpQF5XVlpuY9afMGXLfIJ9chwnYSLmxAwjUK3D" alt="頭像">
-						<hr>
-						<br>
-						<h1><span>陳志寧</span></h1>
-						<h1><span>Jocelyn Chen</span></h1>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-4 item2 order-md-2">
-				<div class="left1">
-					<h3><span>個人資訊</span></h3>
-					<hr>
-					<ul>
-						<li>
-							<h5>
-								<span>生日</span>
-								1995.02.08
-							</h5>
-						</li>
-						<br>
-						<li>
-							<h5>
-								<span>性別</span>
-								女
-							</h5>
-						</li>
-						<br>
-						<li>
-							<h5>
-								<span>國籍</span>
-								Taiwan
-							</h5>
-						</li>
-						<br>
-						<li>
-							<h5>
-								<span>email</span>
-								jolenechen123@yahoo.com.tw
-							</h5>
-						</li>
-						<br>
-						<li>
-							<h5>
-								<span>phone</span>
-								0935216862
-							</h5>
-						</li>
-					</ul>
-
-				</div>
-			</div>
-			
-			<div class="col-md-4 item2 order-md-3">
-				<div class="middle2">
-					<div>
-						<h3><span>學習經歷</span></h3>
-						<hr>
-						<h5>2013-2017 天主教輔仁大學</h5>
-						<h5>學士，數學系</h5>
-						<br>
-					</div>
-					<br><br>
-					<div>
-						<h3><span>工作經歷</span></h3>
-						<hr>
-						<h5><span>頤德國際公關顧問公司-助理</span></h5>
-							<p>
-								搜尋、蒐集及編排資料,並忙資料庫建檔
-							</p>
-						
-						<h5><span>美生牙醫珍所-助理,櫃台</span></h5>
-							<p>
-								聯絡病人,幫忙處理病人相關行政作業
-
-							</p>
-						<h5><span>瑞齊文理補習班</span></h5>
-							<p>
-								團班數學老師,家教班數學老師
-							</p>
-						<br>
-					</div>
-				</div>
-			</div>
-		</div>
+			<div class="col-md-12">
+			<ul class="nav nav-tabs nav-justified mt-3" id="myTab" role="tablist">
+				<!-- nav-justified標籤等寬 mt-3是??? -->
+		  		<li class="nav-item">
+		    		<a class="nav-link active" id="detail-tab" data-toggle="tab" href="#detail" role="tab" aria-controls="detail" aria-selected="true">HTML</a>
+		 		 </li>
+		 		 <li class="nav-item">
+		    		<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">CSS</a>
+		  		</li>
+		  		<li class="nav-item">
+		   		 <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">JS</a>
+		 		 </li>
+			</ul>
+		<div class="tab-content" id="myTabContent">
+  			<div class="tab-pane fade show active p-5 bg-white" id="detail" role="tabpanel" aria-labelledby="detail-tab">
+  				<!-- p-5 bg-white -->
+				<p class="text-left">HTML5是HTML最新的修訂版本，由全球資訊網協會（W3C）於2014年10月完成標準制定。目標是取代1999年所制定的HTML 4.01和XHTML 1.0標準，以期能在網際網路應用迅速發展的時候，使網路標準達到符合當代的網路需求。廣義論及HTML5時，實際指的是包括HTML、CSS和JavaScript在內的一套技術組合。它希望能夠減少網頁瀏覽器對於需要外掛程式的豐富性網路應用服務（Plug-in-Based Rich Internet Application，RIA），例如：Adobe Flash、Microsoft Silverlight與Oracle JavaFX的需求，並且提供更多能有效加強網路應用的標準集。</p>
+  				
+  			</div>
+  			<div class="tab-pane fade p-5 bg-white" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+  				<p class="text-left">層疊樣式表（英語：Cascading Style Sheets，簡寫CSS），又稱串樣式列表、級聯樣式表、串接樣式表、層疊樣式表、階層式樣式表，一種用來為結構化文件（如HTML文件或XML應用）添加樣式（字型、間距和顏色等）的電腦語言，由W3C定義和維護。目前最新版本是CSS2.1，為W3C的推薦標準。CSS3現在已被大部分現代瀏覽器支援，而下一版的CSS4仍在開發中。</p>
+  			</div>
+  			<div class="tab-pane fade p-5 bg-white" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+  				<p class="text-left">JavaScript，一種高階程式語言，通過解釋執行，是一門動態型別，物件導向（基於原型）的直譯語言。它已經由ECMA（歐洲電腦製造商協會）通過ECMAScript實現語言的標準化。它被世界上的絕大多數網站所使用，也被世界主流瀏覽器（Chrome、IE、Firefox、Safari、Opera）支援。JavaScript是一門基於原型、函式先行的語言，是一門多範式的語言，它支援物件導向編程，指令式程式設計，以及函數語言程式設計。它提供語法來操控文字、陣列、日期以及正規表示式等，不支援I/O，比如網路、儲存和圖形等，但這些都可以由它的宿主環境提供支援。</p>
+  			</div>
 	</div>
-<!-- /////////////////////////////////////////// -->
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 item3">
-				<div class="left2">
-					<div>
-						<h3><span>語言</span></h3>
-						<hr>
-						<h5>中文</h5>			
-							<div class="bar">
-								<div class="bar2"></div>
-							</div>
-							<br>
-						<h5>英文</h5>
-							<div class="bar">
-									<div class="Ebar2">
-							 		</div>
-							</div>
-								<br>
-					</div>
-						<br>
-					
-						<h3><span>技能</span></h3>
-						<hr>
-						<br>
-						<h5 class="abc"><span>HT</span></h5>
-						<br>
-							<div class="bar">
-								<div class="line"></div>
-									<div class="bar2"></div>
-							</div>
-								<br>
-						<h5 class="abc"><span>CS</span></h5>
-						<br>
-						<div class="bar">
-							<div class="line"></div>
-									<div class="Ebar3"></div>
-						</div>
-
-				</div>
-
-			</div>
-
-			<div class="col-md-7 item3">
-				<div class="right1">
-					<div>
-						<h3><span>自傳</span></h3>
-						<hr>
-						<br>
-						<p>
-							您好，我是陳志寧，今年二十三歲，來自台北，就讀輔仁大學數學系畢業，對數據相關工作特別有興趣。
-        				初到大學這開放、自由的學習環境，我就期許自己要過的充實，青春不要留白。從大一起，透過微積分這門課，奠定了領域之基礎概念與熱忱，使我學習專業課程更加游刃有餘。後來開始接觸較深入的線性代數、微分方程等課程，也因為有良好的理論基礎，所以讓我在這些科目中取得優異的成績，藉由這些專業知識讓我在研究領域中能更系統的整合及周延的思考，並透過一些程式語言的操作，加深印象，也學會LaTeX、MATLAB等的基本機制及用途。到了大三，我開始了解自己的志向，因此選修了統計學、機率論、物聯網概論、巨量資料概論等課程，以利我學習到統計相關的知識。此外我也選修了許多商管學院的課，如經濟學、理財投資、公司管理與經營實務等，一方面是建立基本的經濟觀，另一方面是培養本科系以外的專長，以利在競爭激烈的社會洪流中站穩腳步。
-        			</p>
-        			<br>
-        			<p>
-    					而工作經驗方面，大學時期我曾在公關公司從事資料整理、編輯資料庫，開啟了我對資料數據的興趣。為了提升自己與別人的溝通能力，我利用課餘時間在牙醫診所從事櫃檯工作過一段時間學習如何和客戶與長官溝通，也積極地參與學校活動，大二時曾擔任組長協助過學校籌畫畫展舉辦，我們的規劃當時也得到策展人(主辦單位負責人)
-    					的大力讚賞，讓我留下了難忘的經驗與回憶。
-    					2015年暑假，我報名甄選EPSON的綠領菁英領袖營，和全國被挑選出的大學生一起學習討論綠能源再生和永續相關議題的學習，並實際參訪他們的工廠，也和其他組別分組競賽，思考如何以綠色思想為主軸，為「幸福台灣」公司訂定行銷企劃，收穫滿滿。
-    				</p>
-    				<br>
-    				<p>
-    					以上為我近年來的一些經歷，希望貴公司能給予我一個見習的機會，讓我能更了解數據的相關工作。
-						</p>
-					</div>
-				</div>
-			</div>
-			
-			
-			
-		</div>
-	</div>
-
-<!-- /////////////////////////////////////////////////////////////////////// -->
-	<div class="lightbox-wrap">
-		<div class="lightbox">
-			<img src="image/35884194_1894235770640293_1669582761528131584_n.jpg" alt="">
-		</div>
-	</div>
-
-
-<!-- JQ -->
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-
-
-<!-- UI -->
-	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
-
-	<script>
-
-		
+</div>
+</div>
+</div>
+<br><br><br><br>
+<!-- ///////////////////////////////////// -->		
 	
+	<div class="container" id="works">
+		<div class="a123"><h1>作品</h1></div>
+		<div class="row">
+			
+			<div class="col-md-4 col-sm-6">
+				<div class="card" style="width: 18rem;">
+  					<img class="card-img-top" src="http://fakeimg.pl/350x350/456810/FFF/?text=test 350x350" alt="Card image cap">
+  					<div class="card-body">
+    				<h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   				 	<a href="#" class="btn btn-primary">Go somewhere</a>
+  					</div>
+				</div>
+			</div>
 
-		$(".item2").hover(function(){
-			$(this).css({"box-shadow":"4px 4px 12px 4px rgba(20%,20%,40%,0.5)","top":"5px"});
-		},function(){
-			$(this).css({"box-shadow":"4px 4px rgba(20%,20%,40%,0.5)","top":"15px"});
-		}
+			<div class="col-md-4 col-sm-6">
+				<div class="card" style="width: 18rem;">
+  					<img class="card-img-top" src="http://fakeimg.pl/350x350/987008/FFF/?text=test 350x350" alt="Card image cap">
+  					<div class="card-body">
+    				<h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   				 	<a href="#" class="btn btn-primary">Go somewhere</a>
+  					</div>
+				</div>
+			</div>
 
-		);
+			<div class="col-md-4 col-sm-6">
+				<div class="card" style="width: 18rem;">
+  					<img class="card-img-top" src="http://fakeimg.pl/350x350/035600/FFF/?text=test 350x350" alt="Card image cap">
+  					<div class="card-body">
+    				<h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   				 	<a href="#" class="btn btn-primary">Go somewhere</a>
+  					</div>
+				</div>
+			</div>
 
-		$(".item3").hover(function(){
-			$(this).css({"box-shadow":"4px 4px 12px 4px rgba(20%,20%,40%,0.5)","top":"5px"});
-		},function(){
-			$(this).css({"box-shadow":"4px 4px rgba(20%,20%,40%,0.5)","top":"15px"});
-		}
+			<div class="col-md-4 col-sm-6">
+				<div class="card" style="width: 18rem;">
+  					<img class="card-img-top" src="http://fakeimg.pl/350x350/030000/FFF/?text=test 350x350" alt="Card image cap">
+  					<div class="card-body">
+    				<h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   				 	<a href="#" class="btn btn-primary">Go somewhere</a>
+  					</div>
+				</div>
+			</div>
 
-		);
+			<div class="col-md-4 col-sm-6">
+				<div class="card" style="width: 18rem;">
+  					<img class="card-img-top" src="http://fakeimg.pl/350x350/943600/FFF/?text=test 350x350" alt="Card image cap">
+  					<div class="card-body">
+    				<h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   				 	<a href="#" class="btn btn-primary">Go somewhere</a>
+  					</div>
+				</div>
+			</div>
 
-		// ---------------------------------------------------------------------
+			<div class="col-md-4 col-sm-6">
+				<div class="card" style="width: 18rem;">
+  					<img class="card-img-top" src="http://fakeimg.pl/350x350/039513/FFF/?text=test 350x350" alt="Card image cap">
+  					<div class="card-body">
+    				<h5 class="card-title">Card title</h5>
+    				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+   				 	<a href="#" class="btn btn-primary">Go somewhere</a>
+  					</div>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	</div>
 
-		$(".btn1").click(function(){
-			$(".lightbox-wrap").fadeIn().css("display","flex");
-		});
-
-		$(".lightbox-wrap").click(function(){
-			$(".lightbox-wrap").fadeOut();
-		});
 
 
+<br><br><br>
+	<!-- ////////////////////////////////// -->
+<div class="container">
+	<div class="a123"><h1>聯絡</h1></div>
+		<div class="row">
+			<br>
+		<div class="col-md-12">
+		<form>
+  				<div class="form-group">
+				    <label for="exampleInputEmail1">Email:</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="請輸入電郵">
+				    <small id="emailHelp" class="form-text text-muted">我們不會透露你的個人資料。</small>
+				</div>
+				<div class="form-group">
+				    <label for="exampleFormControlTextarea1">內容:</label>
+				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="請輸入內容"></textarea>
+				</div>
+				<div class="form-group">
+    				<label for="exampleFormControlSelect1">性別:</label>
+    				<select class="form-control" id="exampleFormControlSelect1">
+					    <option>請選擇</option>
+					    <option>男</option>
+					    <option>女</option>
+					    <option>其他</option>
+				    </select>
+				  </div>
+				
+				<label for="yourname"><h6>你願意接受更多網頁的資訊嗎</h6></label>
+					
+				<br>
+					<label for="yes"><h4>是</h4></label>
+					<input type="radio" name="gender" id="yes">
+					<label for="no"><h4>否</h4></label>
+					<input type="radio" name="gender" id="no">
+					<br>
+				<button type="submit" class="btn btn-primary">Submit</button>
+ 			</form></div>	
+			
+		</div>
+	</div>
+	<br><br><br><br>
 
 
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<script>
+		$('.carousel').carousel({
+		  interval: 2000
+		})
+
+		$('body').scrollspy({ target: '#main-navbar' })
 	</script>
-
 </body>
 </html>
